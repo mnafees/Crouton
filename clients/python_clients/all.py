@@ -4,7 +4,7 @@ import json
 import random
 
 
-clientName = "crouton-test-client-" # + str(random.randint(1, 100)) (Change this as same names will conflict)
+clientName = "crouton-test-client-" + str(random.randint(1, 100)) # (Change this as same names will conflict)
 
 #device setup
 j = """
